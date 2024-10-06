@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>choix des meilleurs</title>
+</head>
+<body>
+    <form method="post">
+        <a href="{% url 'rank' promo %}">voir l'actuelle classement</a>
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">
+            Envoyez
+        </button>
+    </form>
+</body>
+</html>

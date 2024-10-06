@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>classement</title>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <td>Rg</td>
+            <td>NOM</td>
+            <td>POSTNOM</td>
+            <td>PTS</td>
+        </tr>
+        {% for pos, nom, postnom, point in info %}
+            <tr>
+                <td>{{ pos }}</td>
+                <td>{{ nom }}</td>
+                <td>{{ postnom }}</td>
+                <td>{{ point }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

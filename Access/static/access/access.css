@@ -1,0 +1,20 @@
+/* Our css for Access application from django
+*/
+form {
+    text-align: center;
+    font-size: large;
+    color: rgb(218, 18, 191);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    background-color: rgb(230, 141, 9);
+}
+
+h1 {
+    /* Ici se trouvera le code pour cette balise */
+}
+
+label {
+    color: blue;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
